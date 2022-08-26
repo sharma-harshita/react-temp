@@ -1,4 +1,4 @@
-import React, { useCallback, useState } from "react";
+import React, { useCallback, useMemo, useState } from "react";
 import Employee from "./Employee";
 
 function Company(){
@@ -19,7 +19,7 @@ function Company(){
             <h1>Company Component {num1}</h1>
             <button onClick={()=> setNum1(50)}> Change Num1</button>
             <button onClick={()=> setNum2(150)}> Change Num2</button>
-            <Employee num = {num2} handleFnc = {callbackHandleState}/>
+            <Employee num = {num2} handleFnc = {callbackHandleState} />
         </div>
     )
 }

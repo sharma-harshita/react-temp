@@ -23,7 +23,6 @@ function UseMemoExp(){
             <h2>Value of a variable = {a}</h2>
             <button onClick={changeA}>Change A state variable</button>
             <h2>Max Value</h2>
-            {memoMax}
 
             <button onClick={()=> setNumbers([23,46,24567,2367532,1345])}>Change Num state variable</button>
 
