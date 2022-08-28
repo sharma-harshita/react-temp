@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import RefExample from "./friday/RefExample";
 import Parent from "./monday/Parent";
+import ReducerHook from "./saturday/reducerHook";
 // import Company from "./thursday/Company";
 // import UseMemoExp from "./thursday/UseMemoExp";
 import Main from "./tuesday/Main";
@@ -20,7 +21,8 @@ class App extends Component{
        {/* <Company/> */}
        {/* <UseMemoExp/> */}
 
-       <RefExample/>
+       {/* <RefExample/> */}
+       <ReducerHook/>
       </>
     )
   }
