@@ -14,7 +14,7 @@ function Main (){
             <Link to="/contact">Contact</Link> ||
             <Link to="/ask">Ask</Link> ||
             <Link to="/about">ABout</Link> ||
-            <Link to="/students/1/ha">John</Link> 
+            {/* <Link to="/students/1/ha">John</Link>  */}
 
             <Routes>
                 <Route path="/" element={<Home/>}/>
@@ -22,9 +22,8 @@ function Main (){
                 <Route path="/about" element={<About/>}/>
                 <Route path="/contact" element={<Contact/>}/>
                 <Route path="/ask" element={<AlwaysAsk/>}/>
-                <Route path="/students/:id" element={<Students/>}/>
+                {/* <Route path="/students/:id" element={<Students/>}/> */}
                 <Route path="/*" element={<NotFound/>}/>
-
             </Routes>
         </div>
     )

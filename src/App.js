@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import Temp from "./5monday/Temp";
 import RefExample from "./friday/RefExample";
 import Parent from "./monday/Parent";
 import ReducerHook from "./saturday/reducerHook";
@@ -12,6 +13,7 @@ class App extends Component{
   render(){
     return(
       <>
+      <Temp number = {1}/>
         {/* <Parent/> */}
         {/* <Main/> */}
        {/* <ContextProvider>
@@ -22,7 +24,7 @@ class App extends Component{
        {/* <UseMemoExp/> */}
 
        {/* <RefExample/> */}
-       <ReducerHook/>
+       {/* <ReducerHook/> */}
       </>
     )
   }
