@@ -22,3 +22,10 @@ function DataHOC (WrappedComponent) {
 }
 
 export default DataHOC
+
+
+
+
+
+
+

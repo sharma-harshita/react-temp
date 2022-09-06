@@ -6,14 +6,14 @@ import ReducerHook from "./saturday/reducerHook";
 // import Company from "./thursday/Company";
 // import UseMemoExp from "./thursday/UseMemoExp";
 import Main from "./tuesday/Main";
-import Comp1 from "./wednesday/Comp1";
+import Comp1 from "./6tuesday/Comp1";
 import ContextProvider from "./wednesday/EmpContext";
 
 class App extends Component{
   render(){
     return(
       <>
-      <Temp number = {1}/>
+      {/* <Temp number = {1}/> */}
         {/* <Parent/> */}
         {/* <Main/> */}
        {/* <ContextProvider>
@@ -25,6 +25,7 @@ class App extends Component{
 
        {/* <RefExample/> */}
        {/* <ReducerHook/> */}
+       <Comp1/>
       </>
     )
   }
